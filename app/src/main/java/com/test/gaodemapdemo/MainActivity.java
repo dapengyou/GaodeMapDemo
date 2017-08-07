@@ -10,6 +10,10 @@ import android.widget.Switch;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button mBtShowMap;
     private Button mBtShowLocation;
+    private Button mBtShowMarkers;
+    private Button mBtShowPoi;
+    private Button mBtShowLine;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,11 +26,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void initView() {
         mBtShowMap = (Button) findViewById(R.id.bt_showMap);
         mBtShowLocation = (Button) findViewById(R.id.bt_showLocation);
+        mBtShowPoi = (Button) findViewById(R.id.bt_showPoi);
+        mBtShowMarkers = (Button) findViewById(R.id.bt_showMarkers);
+        mBtShowLine = (Button) findViewById(R.id.bt_showLine);
     }
 
     private void setListener() {
         mBtShowMap.setOnClickListener(this);
         mBtShowLocation.setOnClickListener(this);
+        mBtShowPoi.setOnClickListener(this);
+        mBtShowMarkers.setOnClickListener(this);
+        mBtShowLine.setOnClickListener(this);
     }
 
     @Override
@@ -37,6 +47,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.bt_showLocation:
                 startActivity(new Intent(this,ShowLocationActivity.class));
+                break;
+            case R.id.bt_showMarkers:
+                startActivity(new Intent(this,ShowMarkersActivity.class));
+                break;
+            case R.id.bt_showPoi:
+                startActivity(new Intent(this,ShowPoiActivity.class));
+                break;
+            case R.id.bt_showLine:
+                startActivity(new Intent(this,ShowLineActivity.class));
                 break;
         }
     }
