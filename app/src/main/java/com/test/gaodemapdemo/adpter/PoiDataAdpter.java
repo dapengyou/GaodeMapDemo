@@ -1,10 +1,11 @@
-package com.test.gaodemapdemo;
+package com.test.gaodemapdemo.adpter;
 
 import android.support.annotation.Nullable;
 
 import com.amap.api.services.core.PoiItem;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
+import com.test.gaodemapdemo.R;
 
 import java.util.List;
 

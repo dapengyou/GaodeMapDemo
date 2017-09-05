@@ -1,8 +1,6 @@
-package com.test.gaodemapdemo;
+package com.test.gaodemapdemo.widget;
 
-import android.app.Activity;
 import android.util.Log;
-import android.view.View;
 import android.widget.TextView;
 
 import com.amap.api.location.AMapLocation;

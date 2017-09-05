@@ -1,4 +1,4 @@
-package com.test.gaodemapdemo;
+package com.test.gaodemapdemo.activity;
 
 import android.app.Activity;
 import android.graphics.BitmapFactory;
@@ -18,6 +18,7 @@ import com.amap.api.maps.model.LatLng;
 import com.amap.api.maps.model.Marker;
 import com.amap.api.maps.model.MarkerOptions;
 import com.amap.api.maps.model.MyLocationStyle;
+import com.test.gaodemapdemo.R;
 
 /**
  * 展示marker

@@ -38,7 +38,7 @@
             android:value="3f4b3dc392c64a9f0936b48f429771a3" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden">
             <intent-filter>
@@ -48,22 +48,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ShowMapActivity"
+            android:name=".activity.ShowMapActivity"
             android:allowTaskReparenting="true"
             android:exported="true"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ShowLocationActivity"
+            android:name=".activity.ShowLocationActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ShowMarkersActivity"
+            android:name=".activity.ShowMarkersActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ShowPoiActivity"
+            android:name=".activity.ShowPoiActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ShowLineActivity"
+            android:name=".activity.ShowLineActivity"
             android:screenOrientation="portrait" />
 
         <service android:name="com.amap.api.location.APSService"></service>

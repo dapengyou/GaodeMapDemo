@@ -1,4 +1,4 @@
-package com.test.gaodemapdemo;
+package com.test.gaodemapdemo.activity;
 
 import android.app.Activity;
 

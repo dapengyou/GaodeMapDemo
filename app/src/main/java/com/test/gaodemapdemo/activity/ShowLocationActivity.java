@@ -1,4 +1,4 @@
-package com.test.gaodemapdemo;
+package com.test.gaodemapdemo.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -14,6 +14,7 @@ import com.amap.api.location.AMapLocationListener;
 import com.amap.api.maps.CameraUpdateFactory;
 import com.amap.api.maps.model.LatLng;
 import com.amap.api.maps.model.MyLocationStyle;
+import com.test.gaodemapdemo.R;
 
 /**
  * 坐标转化为位置

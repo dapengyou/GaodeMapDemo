@@ -1,4 +1,4 @@
-package com.test.gaodemapdemo;
+package com.test.gaodemapdemo.activity;
 
 import android.app.Activity;
 import android.graphics.BitmapFactory;
@@ -16,6 +16,7 @@ import com.amap.api.maps.MapView;
 import com.amap.api.maps.model.BitmapDescriptorFactory;
 import com.amap.api.maps.model.LatLng;
 import com.amap.api.maps.model.MyLocationStyle;
+import com.test.gaodemapdemo.R;
 
 /**
  * 展示地图

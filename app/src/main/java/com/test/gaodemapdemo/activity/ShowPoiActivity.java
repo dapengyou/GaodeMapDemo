@@ -1,4 +1,4 @@
-package com.test.gaodemapdemo;
+package com.test.gaodemapdemo.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -16,6 +16,8 @@ import com.amap.api.services.core.PoiItem;
 import com.amap.api.services.poisearch.PoiResult;
 import com.amap.api.services.poisearch.PoiSearch;
 import com.chad.library.adapter.base.BaseQuickAdapter;
+import com.test.gaodemapdemo.R;
+import com.test.gaodemapdemo.adpter.PoiDataAdpter;
 
 import java.util.ArrayList;
 import java.util.List;
